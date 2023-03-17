@@ -1,0 +1,115 @@
+.wrap {
+    max-width: 1200px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cbcbcb;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.form {
+    margin-bottom: 100px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#commInput,
+#commDate {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+#commTextarea {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    max-width: 200px;
+    background-color: #5e7c89;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+i {
+    pointer-events: none;
+}
+
+.list-item {
+    background-color: white;
+
+}
+
+.none {
+    display: none !important;
+}
+
+.btn-like--ective {
+    color: red;
+}
+
+.comm-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.text-name {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.comm__buttons {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.text-time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.text-date {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.empty {
+    font-size: 25px;
+    text-align: center;
+}

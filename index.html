@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/22abdf499d.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+       
+    </form>
+    <main class="page">
+        <div class="wrap">
+            <h2 class="title">
+                Comment
+            </h2>
+            <form class="form" id="form">
+                <div class="form-group">
+                    <label for="comment-name">Name:</label>
+                    <input type="text" class="form-control" id="commInput" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment-time">Date:</label>
+                    <input type="date" class="form-control" id="commDate" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="comment-body">Comment:</label>
+                    <textarea type="text" class="form-control" id="commTextarea" placeholder="Comment" required></textarea>
+                </div>
+                <div class="form-group form-check text-right">
+                    <button type="submit" id="comment-add" class="btn btn-primary">add Comment</button>
+                </div>
+            </form>
+
+
+            <div class="card">
+                <ul id="commList" class="list"></ul>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="/main.js"></script>
+
+</html>
